@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Links para pré-conexão com o Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+        <div class="tela-de-login">
+            <h2>USER LOGIN</h2>  <!-- Título da tela de login -->
+    
+            <form>
+                <div class="login"> <!-- Caixinha para preencher o e-mail -->
+                    <label for="email">E-mail </label>
+                    <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+
+                <div class="senha"> <!-- Caixinha para preencher a senha -->
+                    <label for="senha">Senha</label> 
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                </div>        
+
+                <div class="lembre-me"> <!-- Caixinha para lembrar do usuário e compo para caso esqueça a senha -->
+                    <label>
+                        <input type="checkbox"> lembre-me
+                    </label>
+
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+            
+                <button type="submit">Entrar</button>
+            </form> 
+        </div> 
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 3px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #270606;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.tela-de-login{
+        width: 400px;
+        background-color: #fbfafa;
+        padding: 97px;
+        border-radius: 45px;
+        box-shadow: 0 0 10px rgba(2, 2, 2, 0.1);
+}
