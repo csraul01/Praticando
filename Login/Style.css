@@ -1,22 +1,36 @@
 *{
-    margin: 3px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 body{
+         /* Transformando a tela de fundo em uma imagem */
         font-family: 'Roboto', sans-serif;
-        background-color: #0e0b5b;
+        background-image: url(Nebulosa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        overflow: hidden;
+        width: 100%;
+        margin: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
 }
 
+body{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Nebulosa.jpg);
+        background-image: linear-gradient(to right, #000000 0%, rgba(14, 11, 91, 0) 100%), url(Nebulosa.jpg); 
+        
+        
+}       
+
 .tela-de-login{
-        width: 500px;
-        background-color: #f9fafa;
+        width: 400px;
+        background-color: #2f2f2f;
         border-radius: 45px;
         box-shadow: 0 0 10px rgb(255, 255, 255);
         padding: 30px 40px 100px 40px;
